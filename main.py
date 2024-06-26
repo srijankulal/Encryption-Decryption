@@ -11,7 +11,7 @@ def main():
     root.title('En|De')
     root.geometry('550x470')
     root.config(bg="#B4B4F8")
-    icon=PhotoImage(file="./Image/data-encryption.png")
+    icon=PhotoImage(file="data-encryption.png")
     root.iconphoto(False,icon)
     def reset():
         T1.delete(1.0,END)
